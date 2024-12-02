@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+#quote-box {
+  display: inline-block;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#author {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+#new-quote {
+  margin-right: 10px;
+}
+
+button,
+a {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover,
+a:hover {
+  background-color: #0056b3;
+}
